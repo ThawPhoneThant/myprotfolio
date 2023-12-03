@@ -168,14 +168,16 @@
 
 
 /* mobile */
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px){ 
   .profolioFiles{
     display:block;
+    height: 85vh;
     position: relative;
     
   }
   .profolioFiles .fact{
    width: 100%;
+   height: 100%;
    margin:auto;
   
   }
@@ -186,9 +188,9 @@
     height: 85px;
     display: flex;
     color: var(--pdf-stone-900);
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-end;
-    font-size: 13px;
+    font-size: 14px;
     /* background-color: blue; */
   }
   .slide-bar-ul li{
@@ -249,7 +251,7 @@
     /* background-color: blueviolet; */
     right:0;
     margin-right: 10px;
-    margin-bottom: 35px
+    margin-bottom: 50px;
   }
   .social a{
     color: var(--pdf-stone-900);
