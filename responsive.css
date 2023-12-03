@@ -1,0 +1,428 @@
+
+
+@media screen and (max-width: 1440px){
+  .fact .h-bodychild{
+    display: none; 
+    padding: 0px;
+    width: 90%;
+    height: 500px ;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 25px;
+     /* background-color: rgb(123, 227, 12);  */
+}
+}
+
+
+ /* laptop */
+@media screen and (max-width: 1024px){
+ .protfolio{
+    padding: 0;
+    display: inline;
+  }
+  
+  .protfolioContainer{
+      height:100vh ;
+      width: 100%;
+      padding: 10px;
+      border-radius: 0;
+    }
+    .protfolioContainer .welcome{
+    
+      
+      margin-top: 2%;
+      
+  }
+  .fact .h-bodychild{
+      display: none; 
+      padding: 0px;
+      width: 90%;
+      height: 500px ;
+      margin-top: 2%;
+      margin-left: 5%;
+      font-size: 25px;
+      /* background-color: rgb(227, 12, 12);  */
+  }
+
+   .col-xl-6{
+    /* background-color: blue;   */
+    width: 100%;
+    display: flex;
+   }
+  } 
+  
+ 
+/* tablet */
+@media screen and (max-width: 800px){
+  .profolioFiles{
+    display:block;
+    position: relative;
+    
+  }
+  .profolioFiles .fact{
+   width: 100%;
+   /* background-color: blueviolet; */
+  margin:auto;
+  }
+  
+  .protfolioContainer .rightS-b{
+    /* background-color: blue; */
+    width: 100%;
+    height: 85px;
+    display: flex;
+    color: var(--pdf-stone-900);
+    justify-content: space-around;
+    align-items: flex-end;
+    
+  }
+  .slide-bar-ul li{
+    display: inline;
+    /* background-color: brown; */
+    margin: 10px 15px;
+  }
+  .profile img{
+    display: none;
+  }
+  .protfolio{
+    padding: 0;
+    display: inline;
+  }
+  .protfolioContainer{
+    height:100vh ;
+    width: 100%;
+    padding: 10px;
+    border-radius: 0;
+    
+  }
+  .fact .h-bodychild{
+    /* display: none; */
+    padding: 10px 20px;
+    width: 720px;
+    height: 500px ;
+     margin-top: 5%;
+    margin-left: 0%; 
+    font-size: 25px;
+    /* background-color: rgb(12, 205, 227); */
+}
+.h-projectchild{
+  display: inline;
+  width: 90%;
+  height: 350px;
+  /* background-color: blue; */
+  margin-left: 4.5%;
+}
+ .welcome{
+      display: none;
+     } 
+  /* .footer{
+      position: relative; 
+      background-color: blue;
+      
+     } */
+  .footer .social{
+    display: block;
+    /* background-color: blueviolet; */
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 5px
+  }
+  .social a{
+    color: var(--pdf-stone-900);
+    display: block;
+    margin-bottom: 5px;
+  }
+  .footer .address{
+    
+    bottom: 80px;
+    
+  
+  }
+  .card-profile-img{
+    top: 25px;
+    left: 40px;
+  }
+  .card{
+   width: 150px;
+    height: 150px;
+   
+  }
+  .exit{
+    width: 50px;
+    height: 30px;
+    /* background-color: rgb(200, 200, 80);  */
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    cursor: pointer;
+  }
+  .icon{
+    font-size: 450%;
+  }
+  .progress-div{
+    width: 400px;
+    height: 5px;
+    background-color:white;
+    border-radius: 15px;
+  }
+}
+
+
+/* mobile */
+@media screen and (max-width: 450px){
+  .profolioFiles{
+    display:block;
+    position: relative;
+    
+  }
+  .profolioFiles .fact{
+   width: 100%;
+   margin:auto;
+  
+  }
+  
+  .protfolioContainer .rightS-b{
+    /* background-color: blue; */
+    width: 100%;
+    height: 85px;
+    display: flex;
+    color: var(--pdf-stone-900);
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 13px;
+    /* background-color: blue; */
+  }
+  .slide-bar-ul li{
+    display: inline;
+    /* background-color: brown; */
+    margin: 10px 5px;
+    /* border: 1px solid ; */
+    /* padding: 5px; */
+  }
+ 
+  .protfolio{
+    padding: 0;
+    display: inline;
+  }
+  .profile button{
+    font-size: 14px;
+    width: 60px;
+    padding: 2px 2px;
+    margin: 0 5px;
+  }
+  .protfolioContainer{
+    height:100vh ;
+    width: 100%;
+    padding: 10px;
+    border-radius: 0;
+    
+  }
+  .fact .h-bodychild{
+   
+    width: 100%;
+    
+}
+.h-bodychild p{
+  font-size: 18px;
+}
+.h-bodychild button {
+  font-size: 18px;
+}
+.h-projectchild{
+  display: inline;
+  width: 90%;
+  height: 350px;
+  /* background-color: blue; 
+  margin-left: 4.5%;*/
+} 
+
+ .welcome{
+      display: none;
+     } 
+  /* .footer{
+      position: relative; 
+      background-color: blue;
+      
+     } */
+  .footer .social{
+   
+    display: block;
+    /* background-color: blueviolet; */
+    right:0;
+    margin-right: 10px;
+    margin-bottom: 35px
+  }
+  .social a{
+    color: var(--pdf-stone-900);
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  .footer .address{
+    
+    right: 74px;
+    bottom: 80px;
+    width: 225px;
+    
+   
+  
+  }
+  .address a{
+    font-size: 10px;
+  }
+  .card-profile-img{
+    top: 30px;
+    left: 50px;
+  }
+  .card{
+   width: 100px;
+    height: 100px;
+   
+  }
+  .icon{
+    font-size: 450%;
+  }
+  .progress-div{
+    width: 200px;
+    height: 5px;
+    background-color:white;
+    border-radius: 15px;
+  }
+  .h-contact{
+    display: none;
+    width: 100%;
+    height: 550px;
+    /* background-color: blue; */
+   }
+   .h-contact .form-control{
+     width: 260px;
+     border: none;
+     border-bottom: 1px solid whitesmoke;
+     border-radius: 0;
+     background-color: transparent;
+     color: aliceblue;
+   }
+   .h-contact button{
+    width: 100px;
+   }
+   .d-skil{
+    justify-content: center;
+    
+   }
+   .font-size20{
+    font-size: 16px;
+   }
+   .pj-box{
+  
+   
+    width: 400px;
+    height: 250px;
+    
+  }
+  .pj-img{
+   
+    height: 200px;
+    margin-bottom: 15px;
+  }
+  .pj-box-link{
+    
+  
+  font-size: 18px;
+ 
+  }
+  .progress-div{
+    width: 180px;
+    height: 6px;
+    background-color:white;
+    border-radius: 15px;
+  }
+  #html{
+    width: 80px;
+    height: 6px;
+   
+  }
+  #css{
+    width: 100px;
+    height: 6px;
+    
+  }
+  #bootstrap{
+    width: 50px;
+    height: 6px;
+    
+  }
+  #javascript{
+    width: 50px;
+    height: 6px;
+    
+  }
+  }
+
+  @media screen and (max-width: 350px){
+    .d-skil{
+      justify-content: start;
+    
+     }
+     .progress-div{
+      width: 150px;
+      height: 6px;
+      background-color:white;
+      border-radius: 15px;
+    }
+    #html{
+      width: 80px;
+      height: 6px;
+     
+    }
+    #css{
+      width: 100px;
+      height: 6px;
+      
+    }
+    #bootstrap{
+      width: 50px;
+      height: 6px;
+      
+    }
+    #javascript{
+      width: 50px;
+      height: 6px;
+      
+    }
+    .font-size20{
+      font-size: 18px;
+     }
+     .exit {
+      width: 50px;
+      height: 30px;
+      /* background-color: rgb(200, 200, 80); */
+      position: absolute;
+      top: 68px;
+      right: 0px;
+      cursor: pointer;
+      z-index: 999999;
+  }
+  .exit div{
+    width: 21px;
+  }
+  .card-profile-img {
+    width: 90px;
+    height: 90px;
+    top: 49px;
+    left: 0px;
+  }
+  .card-profile-data {
+    width: 284px;
+    height: 210px;
+    right: 10px;
+  }
+  .card-profile-data h3{
+    font-size: 16px;
+  }
+  .table th{
+    font-size: 16px;
+    
+  }
+  .table td{
+    font-size: 12px;
+  }
+  }
