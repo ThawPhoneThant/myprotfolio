@@ -398,11 +398,11 @@ body{
   width: 100%;
   height: 100vh;
   padding: 20px;
-  
+ 
   
 }
 .protfolioContainer{
-  width: 100%;
+  width: 95%;
   height: 95vh;
   border: 1px solid black;
   backdrop-filter: blur(7px) saturate(200%);
