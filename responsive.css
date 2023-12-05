@@ -273,7 +273,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
+   
   }
   
   .card-profile{
@@ -285,7 +285,7 @@
   }
   .profile-view-child{
     width: 100%;
-    background-color: brown;
+    
   }
   .card-profile-img{
     top: 34px;
